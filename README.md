@@ -1,172 +1,350 @@
-# zipro. — Voice of Customer Copilot
+# Zipro — Voice of Customer Copilot
 
-**Fictional ride-hailing product intelligence · 1,700 synthetic feedback records · two React pages**
+**An Agentic AI-powered Customer Intelligence & Product Decision Support System**
 
-Zipro turns reviews, tickets, interviews, surveys and feature requests into evidence-backed insights and proposed product decisions. This is a **synthetic portfolio case study**, not a service representing any real company.
+Zipro is a full-stack AI application designed to help product teams turn unstructured customer feedback into actionable, evidence-backed product insights.
 
-## Project features
+Built around a fictional ride-hailing company, Zipro analyzes approximately 1,700 synthetic customer feedback records collected across app reviews, support tickets, customer interviews, surveys, and feature requests.
 
-- **Customer Intelligence Dashboard:** SQL-backed source counts, top issues and monthly trends, plus file upload.
-- **AI Product Copilot:** multi-turn questions and recommendations with clickable source quotations and original feedback drawer.
-- **Three separate LangGraph agents:** `investigation_agent.py`, `product_decision_agent.py` and `evidence_verification_agent.py`.
-- **Dynamic analysis:** Gemini interprets the question into validated analytics parameters. SQLAlchemy counts *distinct feedback records*; the LLM never executes arbitrary generated SQL.
-- **Hybrid corrective RAG:** Pinecone semantic search + PostgreSQL BM25 + weighted ensemble + optional Cohere reranking, one corrective rewrite when evidence is insufficient.
-- **Issue tagging:** supplied synthetic records retain their authored issue categories. **New unlabeled feedback** is tagged by Gemini multi-label classification; *KMeans was removed*.
-- **Evidence validation:** citations require the exact original source ID and an exact quote, and cited records must belong to the referenced issue category.
-- **LLMs:** Gemini primary (`gemini-3.8-flash`), Groq fallback (`openai/gpt-oss-120b`). Gemini embedding vectors are 768-dimensional.
-- **Storage:** PostgreSQL via SQLAlchemy `SessionLocal` and `DeclarativeBase`, Pinecone for embeddings, separate LangGraph PostgreSQL checkpoints.
-- **Safe ingestion:** 5 chunks per batch, 10 seconds between batches, up to 3 attempts with 65-second pauses on rate limits. Configurable from `.env`. Stable chunk IDs allow safe re-upserts.
+Instead of manually reviewing hundreds of complaints, product teams can ask natural-language questions, investigate recurring issues, compare customer experiences, and receive product improvement recommendations supported by verifiable customer evidence.
 
-## 1. Set up PostgreSQL and credentials
+> **Project note:** Zipro is a portfolio case study built using synthetic customer feedback. It does not represent a real ride-hailing company's internal system.
 
-Create an empty PostgreSQL database called `zipro` (pgAdmin or Neon). **No pgvector extension is needed.**
+---
 
-Copy `backend/.env.example` to `backend/.env`. Fill in at least:
+## The Business Problem
 
-```ini
-DATABASE_URL=postgresql://postgres:password@localhost:5432/zipro
-GEMINI_API_KEY=
-PINECONE_API_KEY=
-GROQ_API_KEY=
-COHERE_API_KEY=
+Ride-hailing platforms receive customer feedback from multiple channels. Important problems such as driver cancellations, booking failures, refund delays, payment issues, and unreliable pickup experiences can be difficult to investigate when feedback is scattered across documents.
+
+Traditional dashboards can show complaint counts, but they often struggle to explain:
+
+- Why customers are dissatisfied with a particular experience.
+- Which problems deserve product team attention.
+- What customer evidence supports a proposed improvement.
+- How multiple issues relate to the broader customer experience.
+- How to measure whether a product improvement succeeds.
+
+**Zipro bridges the gap between customer feedback analytics and evidence-based product decision-making.**
+
+## The Solution
+
+Zipro provides two integrated workspaces.
+
+### 1. Customer Intelligence Dashboard
+
+A structured analytics interface for exploring customer feedback.
+
+**Capabilities:**
+- Total feedback records and issue statistics.
+- Frequently reported customer problems.
+- Monthly customer feedback trends.
+- SQL-backed issue analysis.
+- Upload and index additional customer feedback in CSV, JSON, DOCX, PDF, or XLSX formats.
+
+The dashboard uses PostgreSQL and SQLAlchemy to retrieve structured analytical results.
+
+### 2. AI Product Copilot
+
+A conversational AI assistant that investigates customer feedback and helps product teams make informed decisions.
+
+**Capabilities:**
+- Natural-language customer feedback investigation.
+- Multi-turn conversations with persistent memory.
+- Complaint comparisons and issue analysis.
+- Evidence-backed product improvement recommendations.
+- Clickable citations linked to original feedback records.
+- Suggested success metrics for proposed improvements.
+- Explicit handling of insufficient evidence.
+
+For example, a product manager can ask:
+
+**"If Zipro can prioritize only one product improvement this quarter, which customer problem deserves attention first, and why?"**
+
+The copilot investigates relevant feedback, uses available complaint statistics, evaluates the supporting evidence, and proposes a product decision.
+
+Recommendations are treated as hypotheses to validate, not guaranteed business outcomes.
+
+---
+
+## System Architecture
+
+Zipro combines **LangGraph multi-agent orchestration, hybrid corrective RAG, structured PostgreSQL analytics, and source-level evidence verification**.
+
+The workflow follows:
+
+```text
+Customer Question
+       |
+       v
+FastAPI Backend
+       |
+       v
+Domain Guardrails
+       |
+       v
+Investigation Agent
+       |
+       +---- PostgreSQL Analytics
+       |
+       +---- Hybrid RAG Retrieval
+       |         |
+       |         +---- Pinecone Semantic Search
+       |         +---- BM25 Keyword Search
+       |         +---- Optional Cohere Reranking
+       |
+       +---- Corrective Retrieval
+       |
+       v
+Product Decision Agent
+       |
+       v
+Evidence Verification Agent
+       |
+       v
+Evidence-Backed Response
+       |
+       v
+React AI Product Copilot
 ```
 
-`GROQ_API_KEY` is optional fallback; Cohere is optional reranking. **Gemini API key is required for Gemini embeddings** even if Groq handles chat.
+### Multi-Agent Workflow
 
-Do not commit your `.env` file to GitHub.
+The application uses three separate business-focused LangGraph agents.
 
-## 2. Run the backend (Windows PowerShell)
+**Investigation Agent**
 
-Requires Python 3.11+.
+Investigates the user's question using customer feedback and structured analytics. It retrieves relevant evidence and identifies recurring issues, complaint patterns, and supporting customer experiences.
+
+**Product Decision Agent**
+
+Transforms investigation findings into product recommendations, business reasoning, and proposed success metrics. Recommendations are grounded in available evidence rather than presented as established outcomes.
+
+**Evidence Verification Agent**
+
+Checks the generated response against original customer feedback stored in PostgreSQL.
+
+Verification includes:
+- Validating customer feedback source IDs.
+- Checking quotations against original feedback text.
+- Confirming that cited records are associated with the relevant issue categories.
+
+The workflow also includes domain guardrails and corrective retrieval paths for questions with insufficient evidence.
+
+## Hybrid Corrective RAG
+
+Zipro uses a hybrid retrieval approach rather than relying exclusively on vector similarity.
+
+**Semantic Retrieval — Pinecone**
+
+Uses 768-dimensional Gemini embeddings to find customer feedback with similar meaning, even when the user's wording differs from the original complaint.
+
+**Keyword Retrieval — BM25**
+
+Supports exact-term matching for issue descriptions and specific customer language.
+
+**Hybrid Retrieval**
+
+Combines semantic and keyword retrieval results to improve evidence discovery.
+
+**Reranking**
+
+Supports optional Cohere reranking to refine the relevance of retrieved results.
+
+**Corrective Retrieval**
+
+When the initial retrieval is insufficient, the system can reformulate the search and attempt retrieval again before producing a response.
+
+This design aims to reduce irrelevant evidence and unsupported conclusions while keeping the system explainable.
+
+---
+
+## Technology Stack
+
+| Component | Technology |
+|---|---|
+| Frontend | React, Vite |
+| Backend | Python, FastAPI |
+| Multi-Agent Orchestration | LangGraph |
+| LLM Reasoning | OpenAI |
+| Embeddings | Gemini Embedding |
+| Vector Database | Pinecone |
+| Relational Database | PostgreSQL, SQLAlchemy |
+| Retrieval | Hybrid Search, BM25, Corrective RAG |
+| Reranking | Cohere (optional) |
+| Evaluation | RAGAS |
+| Observability | Langfuse |
+| Conversation Memory | LangGraph PostgreSQL Checkpointer |
+
+## Customer Feedback and Ingestion
+
+Zipro uses a multi-format synthetic customer feedback corpus covering common ride-hailing customer experience problems.
+
+Supported input formats include **CSV, JSON, DOCX, PDF, and XLSX**.
+
+The ingestion pipeline:
+
+1. Loads feedback from the supported file formats.
+2. Preserves identifiable feedback records and source metadata.
+3. Assigns issue categories to new unlabeled feedback using LLM-based multi-label classification.
+4. Splits suitable content into retrievable chunks.
+5. Generates Gemini embeddings.
+6. Stores embeddings in Pinecone and structured records in PostgreSQL.
+
+The pipeline supports subsequent document uploads, allowing newly added feedback to become available for analysis and retrieval.
+
+## Evaluation — RAGAS
+
+Zipro includes an offline RAG evaluation notebook and a **25-question golden evaluation dataset** covering basic customer complaints, intermediate reasoning, and more advanced product questions.
+
+Three evaluation metrics were measured:
+
+| RAGAS Metric | Average Score |
+|---|---:|
+| **Faithfulness** | **0.867** |
+| Context Precision | 0.777 |
+| Context Recall | 0.720 |
+
+**Observations**
+
+- Faithfulness indicates that generated answers were generally well supported by retrieved evidence.
+- Context Precision suggests retrieval usually returned useful feedback, with opportunities to improve relevance ranking.
+- Context Recall indicates that some expected evidence was missed, particularly in more demanding questions.
+
+These results are from a standalone RAG evaluation, not an end-to-end evaluation of the entire three-agent LangGraph workflow.
+
+The golden references are based on the project's feedback scenarios and require source-by-source verification before being treated as a final benchmark.
+
+## Observability — Langfuse
+
+Zipro integrates Langfuse with LangGraph to provide visibility into AI workflow execution.
+
+The observability integration captures supported LangGraph and LLM operations, enabling inspection of:
+
+- Agent workflow traces.
+- Model execution latency.
+- Token usage and reported API costs.
+- LLM inputs and outputs.
+- Execution errors and performance bottlenecks.
+
+Langfuse helps investigate failures and understand how AI responses are generated, complementing the offline quality evaluation performed with RAGAS.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.11+
+- Node.js and npm
+- PostgreSQL
+- Pinecone account
+- OpenAI and Gemini API keys
+- Optional Cohere and Langfuse credentials
+
+### 1. Configure the backend
+
+Create `backend/.env` using `backend/.env.example` as a reference.
+
+Configure your database connection, model credentials, vector database, and any optional services.
+
+**Never commit real API keys or passwords to GitHub.**
+
+### 2. Run the backend
+
+From the `backend` directory:
 
 ```powershell
-cd backend
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+
 pip install -r requirements.txt
 
-python pinecone.py
 python -m scripts.setup_database
+python setup_pinecone.py
 python -m app.ingestion.ingest
 
 uvicorn app.main:app --reload
 ```
 
-`python pinecone.py` creates or validates the 768-dimensional Pinecone serverless index. `setup_database` creates six app tables and initializes LangGraph checkpoint tables. `python -m app.ingestion.ingest` loads 1,700 bundled synthetic records; its batch upload may take a substantial amount of time depending on quota and delays. **Run initial ingestion outside a hosted HTTP request.**
+Database setup, Pinecone index creation, and initial ingestion are initialization tasks; they do not need to be repeated on every application restart.
 
-The database is queried using `SessionLocal` and SQLAlchemy models. The LangGraph checkpointer manages its own tables and connection interface; it is intentionally not modeled using SQLAlchemy.
+FastAPI documentation: `http://localhost:8000/docs`
 
-Visit [http://localhost:8000/docs](http://localhost:8000/docs) for FastAPI documentation.
+### 3. Run the frontend
 
-## 3. Run the frontend
-
-Open another PowerShell terminal:
+From the `frontend` directory:
 
 ```powershell
-cd frontend
 npm install
 npm run dev
 ```
 
-Visit `http://localhost:5173`. The frontend communicates with FastAPI at `/api`, proxied locally by Vite. It has two pages: Dashboard and AI Product Copilot.
+Open `http://localhost:5173`.
 
-## 4. Example questions
+### 4. Run RAGAS Evaluation
 
-- “How many app reviews were submitted in October?” (SQL count)
-- “What are our top customer problems?” (SQL top issue counts + citations)
-- “Why do drivers cancel bookings?” (retrieved feedback + hypotheses)
-- “Compare September and October refund complaints.” (period comparison)
-- “Show me the original reviews supporting this recommendation.” (citations)
-- “Explain the first issue further.” (same `thread_id` maintains context)
+Open `backend/evals/ragas.ipynb` using a Python environment with the backend requirements installed.
 
-SQL-derived **feedback counts are not customer counts, trips, financial losses, or proven causal effects**. A question requiring unavailable data must be answered with an explicit limitation rather than an invented fact. LLM-selected dates and issue names are validated before SQLAlchemy builds queries.
+The notebook loads the golden dataset with pandas, retrieves customer feedback, generates answers, calculates RAGAS scores, and presents the results.
 
-## 5. Supported documents and uploading
+---
 
-`app/rag/loaders.py` loads CSV, JSON, DOCX, PDF and XLSX files in a small `if/elif` function while preserving one **source record ID per feedback item**. Some specialized handling is necessary so that rows in CSV/XLSX/JSON and survey pages in PDFs are individually citable.
+## Example Questions
 
-New files are uploaded through the dashboard. Maximum 8 MB and 1,000 feedback records per file. In production (`APP_ENV=production`) uploads require `X-Upload-Token` matching `UPLOAD_ADMIN_TOKEN`.
+**Customer Intelligence**
+- What are the most frequently reported customer complaints?
+- Why are customers frustrated with driver cancellations?
+- What problems do customers experience during booking?
+- Compare refund delays and payment-related complaints.
 
-Uploaded feedback without issue categories is classified by Gemini into a controlled list of issue categories. Existing bundled synthetic issue labels are reused instead of making 1,700 extra LLM calls. The `ingestion/classification.py` module is only for categorization; it is **not** clustering or model training.
+**Product Decisions**
+- Which customer issue should Zipro prioritize first?
+- What product improvement could reduce cancellation-related inconvenience?
+- What evidence supports improving refund status visibility?
+- What should the product team validate before implementing automatic driver reassignment?
 
-**Upload limitations:** indexing happens during the request (off the event loop using a worker thread). It can exceed serverless request timeouts; a job queue is recommended before a real public deployment. Filenames/extensions and size are checked, but this example is not a complete malware scanner or full tenant security boundary.
+**Follow-up Investigation**
+- Explain the first issue in more detail.
+- Show the customer feedback supporting that recommendation.
+- What metrics should we track after implementing the proposed improvement?
 
-## 6. Final backend organization
+---
 
-```text
-backend/
-├── app/
-│   ├── agents/
-│   │   ├── investigation_agent.py
-│   │   ├── product_decision_agent.py
-│   │   ├── evidence_verification_agent.py
-│   │   ├── domain_guard.py
-│   │   ├── graph.py
-│   │   ├── state.py
-│   │   └── schemas.py
-│   ├── rag/
-│   │   ├── loaders.py
-│   │   ├── hybrid.py
-│   │   ├── reranker.py
-│   │   ├── retrieval.py
-│   │   └── corrective.py
-│   ├── database/
-│   │   ├── database.py          # SQLAlchemy engine and SessionLocal
-│   │   ├── models.py            # Six application ORM tables
-│   │   ├── schemas.py           # Validated issue and analytics plans
-│   │   └── pinecone.py          # Vector index setup
-│   ├── ingestion/
-│   │   ├── ingest.py            # Resumable small-batch indexing
-│   │   └── classification.py    # Multi-label Gemini classification
-│   ├── services/
-│   │   └── analytics.py         # Safe SQLAlchemy counts and comparisons
-│   ├── prompts/
-│   │   ├── domain.py
-│   │   ├── investigation.py
-│   │   ├── analytics.py
-│   │   └── decision.py
-│   ├── core/
-│   │   ├── config.py
-│   │   ├── llm.py
-│   │   ├── guardrails.py
-│   │   └── tracing.py
-│   ├── api/
-│   │   ├── routes.py           # FastAPI routes (separate from main.py)
-│   │   └── schemas.py          # Typed request and response objects
-│   └── main.py                 # Short FastAPI entry point
-├── data/                       # 50 source files + dataset notes
-├── scripts/setup_database.py
-├── evals/                      # Golden questions + evaluation script
-├── tests/
-├── pinecone.py                 # Run with python pinecone.py
-├── requirements.txt
-├── .env.example
-└── vercel.json                # Optional backend Vercel routing
+## Engineering Considerations and Limitations
 
-frontend/
-├── src/pages/Dashboard.jsx
-├── src/pages/Copilot.jsx
-├── src/components/StatCard.jsx
-├── src/App.jsx
-├── src/api.js
-├── src/index.css
-└── package.json
-```
+Zipro was developed with a production-oriented architecture, but it remains a portfolio MVP.
 
-**Removed:** `ingestion/clustering.py` (no KMeans), and the redundant `scripts/ingest_data.py` runner. There is no standalone dataset generator in the delivered application.
+Important considerations include:
 
-## 7. Tests and limitations
+- Complaint counts represent feedback records, not necessarily unique customers or trips.
+- Customer feedback can reveal pain points but does not independently establish root causes.
+- Product recommendations require validation through experiments or operational analysis.
+- Source verification checks citations and quotations but cannot guarantee every generated interpretation is logically correct.
+- Public multi-user deployment would require authentication, access control, and appropriate request limits.
+- Large document uploads would benefit from asynchronous background processing.
+- The present RAGAS benchmark does not measure the complete multi-agent workflow.
 
-```powershell
-cd backend
-pytest -q
-python -m evals.evaluate  # Requires a running backend and live API keys
-```
+These limitations guide future improvements rather than being treated as completed capabilities.
 
-Syntax, document parsing, dataset checks, and deterministic unit tests were run locally. **An end-to-end run against PostgreSQL, Pinecone, Gemini, Groq, and Cohere was not possible without live connections and credentials.** The React production build was also not verified in this environment. Do not equate passing offline tests with a fully production-tested system.
+## Future Improvements
 
-The current verifier checks exact source IDs, quotes, and issue associations, but it **cannot guarantee that every generated interpretation is logically entailed**. Product actions are suggestions, not causal proofs. Multi-user production deployment requires authenticated, tenant-isolated threads and database access. Long-running ingestion needs a background worker rather than a serverless HTTP request.
+- End-to-end agent evaluation with curated test cases.
+- Improved hybrid retrieval ranking and recall.
+- Automated regression testing for RAG responses.
+- Enhanced monitoring, alerting, and retrieval diagnostics.
+- Background ingestion workers.
+- Production authentication and access controls.
 
-## 8. Deployment
+---
 
-There is an optional `backend/vercel.json` routing file because Vercel deployment was requested; it is **not** a document manifest. Deploy the backend and frontend separately, with `FRONTEND_URL` and `VITE_API_URL` configured correctly. Managed PostgreSQL (Neon) and Pinecone can be used. A dedicated FastAPI host is preferable for long-running agent requests and uploads.
+## Project Purpose
+
+Zipro demonstrates the practical engineering involved in building an **evidence-grounded, multi-agent AI application for a real business problem**.
+
+The project brings together:
+
+**Agentic AI · Hybrid RAG · Corrective Retrieval · SQL Analytics · Evidence Verification · RAGAS Evaluation · Langfuse Observability · Full-Stack Development**
+
+The objective is not simply to generate answers from documents, but to transform fragmented customer feedback into traceable insights that can support better product decisions.
+
+**Disclaimer:** All customer feedback used for this portfolio case study is synthetic.
