@@ -1,0 +1,73 @@
+
+# ==========================================
+# ZIPRO - GITIGNORE
+# ==========================================
+
+# Environment variables and API credentials
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Private credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+secrets/
+credentials/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# React and Node.js
+node_modules/
+dist/
+build/
+coverage/
+npm-debug.log*
+
+# Application logs
+*.log
+logs/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary uploads
+backend/uploads/
+backend/temp/
+backend/tmp/
+
+# Local evaluation outputs
+backend/evals/results.csv
+backend/evals/ragas_results.csv
+backend/evaluations/results.csv
+backend/evaluations/ragas_results.csv
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

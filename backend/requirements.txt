@@ -1,0 +1,47 @@
+
+# API
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic-settings
+
+# PostgreSQL
+psycopg[binary]
+psycopg-pool
+sqlalchemy
+
+# LangChain and agents
+langchain
+langchain-core
+langchain-classic
+langchain-community
+langchain-text-splitters
+langchain-google-genai
+langchain-openai
+langchain-groq
+langchain-pinecone
+langchain-cohere
+langgraph
+langgraph-checkpoint-postgres
+
+# Vector search and reranking
+pinecone
+rank-bm25
+
+# Document formats
+pandas
+openpyxl
+python-docx
+docx2txt
+pypdf
+
+# Observability and tests
+langfuse
+pytest
+httpx
+
+# RAGAS evaluation
+ragas
+pandas
+jupyter
+ipykernel

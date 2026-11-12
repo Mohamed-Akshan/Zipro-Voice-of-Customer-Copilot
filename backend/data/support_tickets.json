@@ -1,0 +1,3442 @@
+{
+  "dataset": "Zipro synthetic voice-of-customer support conversations",
+  "synthetic": true,
+  "tickets": [
+    {
+      "id": "TKT-0001",
+      "date": "2026-07-02",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Galle",
+      "customer_id": "CUST-0104",
+      "incident_id": "INC-0004",
+      "issue_hint": "Driver conduct",
+      "text": "Customer contacted support about driver conduct. The driver spoke rudely when I asked about the pickup location. I left a low rating, but I received no acknowledgment about the incident Follow-up requested: offer a structured conduct report and case-status updates.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. The driver spoke rudely when I asked about the pickup location."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0004. I left a low rating, but I received no acknowledgment about the incident. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-07-02T10:30:00+05:30",
+      "last_updated": "2026-07-02T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0002",
+      "date": "2026-08-12",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0115",
+      "incident_id": "INC-0015",
+      "issue_hint": "Safety concern",
+      "text": "Customer contacted support about safety concern. I felt unsafe when the driver used a different route without explaining the detour. The emergency assistance option was hard to find while the ride was in progress Follow-up requested: make in-ride safety controls prominent and confirm route deviations.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. I felt unsafe when the driver used a different route without explaining the detour."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0015. The emergency assistance option was hard to find while the ride was in progress. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-08-12T10:30:00+05:30",
+      "last_updated": "2026-08-13T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0003",
+      "date": "2026-09-22",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0126",
+      "incident_id": "INC-0026",
+      "issue_hint": "Card payment failure",
+      "text": "Customer contacted support about card payment failure. The payment screen failed after my bank approved the charge. I could not determine whether another attempt would charge my card again Follow-up requested: show payment state clearly and provide safe retry guidance.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. The payment screen failed after my bank approved the charge."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0026. I could not determine whether another attempt would charge my card again. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-09-22T10:30:00+05:30",
+      "last_updated": "2026-09-24T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0004",
+      "date": "2026-10-11",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0137",
+      "incident_id": "INC-0037",
+      "issue_hint": "Refund delay",
+      "text": "Customer contacted support about refund delay. My cancelled trip was charged and the refund was still pending days later. The app only said processing, without a promised refund date or status timeline Follow-up requested: show refund milestones and escalate overdue reversals automatically.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. My cancelled trip was charged and the refund was still pending days later."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0037. The app only said processing, without a promised refund date or status timeline. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-11T10:30:00+05:30",
+      "last_updated": "2026-10-15T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0005",
+      "date": "2026-10-18",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Wattala",
+      "customer_id": "CUST-0148",
+      "incident_id": "INC-0048",
+      "issue_hint": "Duplicate payment",
+      "text": "Customer contacted support about duplicate payment. The card transaction appeared twice for one completed trip. Support asked me for screenshots even though both transaction references were already in the app Follow-up requested: detect duplicate captures and surface payment transaction IDs in support.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The card transaction appeared twice for one completed trip."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0048. Support asked me for screenshots even though both transaction references were already in the app. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-18T10:30:00+05:30",
+      "last_updated": "2026-10-18T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0006",
+      "date": "2026-10-08",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Galle",
+      "customer_id": "CUST-0159",
+      "incident_id": "INC-0059",
+      "issue_hint": "Pickup location error",
+      "text": "Customer contacted support about pickup location error. The pickup pin moved to the opposite side of the road after I confirmed the booking. The driver and I waited at different entrances despite sharing the exact landmark Follow-up requested: allow entrance-level pickup notes and show both parties the same confirmed pin.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. The pickup pin moved to the opposite side of the road after I confirmed the booking."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0059. The driver and I waited at different entrances despite sharing the exact landmark. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-08T10:30:00+05:30",
+      "last_updated": "2026-10-09T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0007",
+      "date": "2026-10-19",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0170",
+      "incident_id": "INC-0070",
+      "issue_hint": "Driver no-show",
+      "text": "Customer contacted support about driver no-show. The map showed my driver nearby, but the vehicle never reached the pickup. The driver was marked as arrived while I was still looking for the car Follow-up requested: require arrival proximity checks and an easier no-show report.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. The map showed my driver nearby, but the vehicle never reached the pickup."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0070. The driver was marked as arrived while I was still looking for the car. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-19T10:30:00+05:30",
+      "last_updated": "2026-10-21T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0008",
+      "date": "2026-08-16",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0111",
+      "incident_id": "INC-0011",
+      "issue_hint": "Positive booking experience",
+      "text": "Customer contacted support about positive booking experience. My driver arrived at the confirmed pickup point and the fare matched the estimate. The route and arrival notifications were clear throughout the ride Follow-up requested: retain the clear pickup confirmation and accurate trip status notifications.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. My driver arrived at the confirmed pickup point and the fare matched the estimate."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0011. The route and arrival notifications were clear throughout the ride. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-08-16T10:30:00+05:30",
+      "last_updated": "2026-08-20T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0009",
+      "date": "2026-09-22",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0122",
+      "incident_id": "INC-0022",
+      "issue_hint": "Trip receipt issue",
+      "text": "Customer contacted support about trip receipt issue. I could not download a receipt with the correct fare breakdown for reimbursement. The receipt omitted the trip reference and an itemized payment line Follow-up requested: offer downloadable corrected receipts with clear payment references.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. I could not download a receipt with the correct fare breakdown for reimbursement."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0022. The receipt omitted the trip reference and an itemized payment line. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-09-22T10:30:00+05:30",
+      "last_updated": "2026-09-22T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0010",
+      "date": "2026-11-02",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Wattala",
+      "customer_id": "CUST-0133",
+      "incident_id": "INC-0033",
+      "issue_hint": "Scheduled ride reliability",
+      "text": "Customer contacted support about scheduled ride reliability. A ride scheduled the previous evening was cancelled shortly before the pickup time. The late notice left no alternative for an early appointment Follow-up requested: confirm scheduled driver availability earlier and offer backup matching.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. A ride scheduled the previous evening was cancelled shortly before the pickup time."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0033. The late notice left no alternative for an early appointment. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-11-02T10:30:00+05:30",
+      "last_updated": "2026-11-03T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0011",
+      "date": "2026-10-24",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Galle",
+      "customer_id": "CUST-0144",
+      "incident_id": "INC-0044",
+      "issue_hint": "Accessibility limitation",
+      "text": "Customer contacted support about accessibility limitation. I could not tell whether the assigned vehicle would accommodate my mobility needs. There was no practical way to communicate accessibility requirements before acceptance Follow-up requested: add optional accessibility preferences and confirmation with the driver.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. I could not tell whether the assigned vehicle would accommodate my mobility needs."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0044. There was no practical way to communicate accessibility requirements before acceptance. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-24T10:30:00+05:30",
+      "last_updated": "2026-10-26T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0012",
+      "date": "2026-10-14",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0155",
+      "incident_id": "INC-0055",
+      "issue_hint": "Airport pickup confusion",
+      "text": "Customer contacted support about airport pickup confusion. At the airport pickup area, the app gave a pin that did not match the allowed vehicle entrance. I carried luggage between gates and the driver could not stop safely Follow-up requested: provide terminal-specific pickup instructions and meeting zones.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. At the airport pickup area, the app gave a pin that did not match the allowed vehicle entrance."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0055. I carried luggage between gates and the driver could not stop safely. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-14T10:30:00+05:30",
+      "last_updated": "2026-10-18T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0013",
+      "date": "2026-10-21",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0166",
+      "incident_id": "INC-0066",
+      "issue_hint": "Support response delay",
+      "text": "Customer contacted support about support response delay. My support conversation was closed before anyone answered the actual question. I had to repeat the same incident details each time the ticket was reopened Follow-up requested: retain context across agents and show response deadlines.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. My support conversation was closed before anyone answered the actual question."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0066. I had to repeat the same incident details each time the ticket was reopened. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-21T10:30:00+05:30",
+      "last_updated": "2026-10-21T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0014",
+      "date": "2026-07-27",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Wattala",
+      "customer_id": "CUST-0108",
+      "incident_id": "INC-0008",
+      "issue_hint": "Trip receipt issue",
+      "text": "Customer contacted support about trip receipt issue. I could not download a receipt with the correct fare breakdown for reimbursement. The receipt omitted the trip reference and an itemized payment line Follow-up requested: offer downloadable corrected receipts with clear payment references.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. I could not download a receipt with the correct fare breakdown for reimbursement."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0008. The receipt omitted the trip reference and an itemized payment line. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-07-27T10:30:00+05:30",
+      "last_updated": "2026-07-28T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0015",
+      "date": "2026-09-06",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Galle",
+      "customer_id": "CUST-0119",
+      "incident_id": "INC-0019",
+      "issue_hint": "Scheduled ride reliability",
+      "text": "Customer contacted support about scheduled ride reliability. A ride scheduled the previous evening was cancelled shortly before the pickup time. The late notice left no alternative for an early appointment Follow-up requested: confirm scheduled driver availability earlier and offer backup matching.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. A ride scheduled the previous evening was cancelled shortly before the pickup time."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0019. The late notice left no alternative for an early appointment. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-09-06T10:30:00+05:30",
+      "last_updated": "2026-09-08T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0016",
+      "date": "2026-10-17",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0130",
+      "incident_id": "INC-0030",
+      "issue_hint": "Accessibility limitation",
+      "text": "Customer contacted support about accessibility limitation. I could not tell whether the assigned vehicle would accommodate my mobility needs. There was no practical way to communicate accessibility requirements before acceptance Follow-up requested: add optional accessibility preferences and confirmation with the driver.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. I could not tell whether the assigned vehicle would accommodate my mobility needs."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0030. There was no practical way to communicate accessibility requirements before acceptance. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-17T10:30:00+05:30",
+      "last_updated": "2026-10-21T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0017",
+      "date": "2026-10-04",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0141",
+      "incident_id": "INC-0041",
+      "issue_hint": "Support response delay",
+      "text": "Customer contacted support about support response delay. My support conversation was closed before anyone answered the actual question. I had to repeat the same incident details each time the ticket was reopened Follow-up requested: retain context across agents and show response deadlines.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. My support conversation was closed before anyone answered the actual question."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0041. I had to repeat the same incident details each time the ticket was reopened. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-04T10:30:00+05:30",
+      "last_updated": "2026-10-04T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0018",
+      "date": "2026-10-15",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0152",
+      "incident_id": "INC-0052",
+      "issue_hint": "Promotion eligibility",
+      "text": "Customer contacted support about promotion eligibility. A promotion appeared in my account but was rejected at checkout. The terms did not explain the location or payment-method restriction Follow-up requested: show eligibility before booking and explain rejected coupons.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. A promotion appeared in my account but was rejected at checkout."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0052. The terms did not explain the location or payment-method restriction. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-15T10:30:00+05:30",
+      "last_updated": "2026-10-16T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0019",
+      "date": "2026-10-26",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Wattala",
+      "customer_id": "CUST-0163",
+      "incident_id": "INC-0063",
+      "issue_hint": "OTP verification",
+      "text": "Customer contacted support about otp verification. The ride verification code arrived too late for the driver to start the trip. Both of us were waiting beside the car while the retry button was unresponsive Follow-up requested: provide clear OTP delivery retries and a verified fallback.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The ride verification code arrived too late for the driver to start the trip."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0063. Both of us were waiting beside the car while the retry button was unresponsive. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-26T10:30:00+05:30",
+      "last_updated": "2026-10-28T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0020",
+      "date": "2026-07-05",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Galle",
+      "customer_id": "CUST-0104",
+      "incident_id": "INC-0004",
+      "issue_hint": "Driver conduct",
+      "text": "Customer contacted support about driver conduct. The driver spoke rudely when I asked about the pickup location. I left a low rating, but I received no acknowledgment about the incident Follow-up requested: offer a structured conduct report and case-status updates.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. The driver spoke rudely when I asked about the pickup location."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0004. I left a low rating, but I received no acknowledgment about the incident. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-07-05T10:30:00+05:30",
+      "last_updated": "2026-07-09T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0021",
+      "date": "2026-08-11",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0115",
+      "incident_id": "INC-0015",
+      "issue_hint": "Safety concern",
+      "text": "Customer contacted support about safety concern. I felt unsafe when the driver used a different route without explaining the detour. The emergency assistance option was hard to find while the ride was in progress Follow-up requested: make in-ride safety controls prominent and confirm route deviations.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. I felt unsafe when the driver used a different route without explaining the detour."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0015. The emergency assistance option was hard to find while the ride was in progress. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-08-11T10:30:00+05:30",
+      "last_updated": "2026-08-11T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0022",
+      "date": "2026-09-21",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0126",
+      "incident_id": "INC-0026",
+      "issue_hint": "Card payment failure",
+      "text": "Customer contacted support about card payment failure. The payment screen failed after my bank approved the charge. I could not determine whether another attempt would charge my card again Follow-up requested: show payment state clearly and provide safe retry guidance.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. The payment screen failed after my bank approved the charge."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0026. I could not determine whether another attempt would charge my card again. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-09-21T10:30:00+05:30",
+      "last_updated": "2026-09-22T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0023",
+      "date": "2026-10-10",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0137",
+      "incident_id": "INC-0037",
+      "issue_hint": "Refund delay",
+      "text": "Customer contacted support about refund delay. My cancelled trip was charged and the refund was still pending days later. The app only said processing, without a promised refund date or status timeline Follow-up requested: show refund milestones and escalate overdue reversals automatically.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. My cancelled trip was charged and the refund was still pending days later."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0037. The app only said processing, without a promised refund date or status timeline. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-10T10:30:00+05:30",
+      "last_updated": "2026-10-12T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0024",
+      "date": "2026-10-21",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Wattala",
+      "customer_id": "CUST-0148",
+      "incident_id": "INC-0048",
+      "issue_hint": "Duplicate payment",
+      "text": "Customer contacted support about duplicate payment. The card transaction appeared twice for one completed trip. Support asked me for screenshots even though both transaction references were already in the app Follow-up requested: detect duplicate captures and surface payment transaction IDs in support.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The card transaction appeared twice for one completed trip."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0048. Support asked me for screenshots even though both transaction references were already in the app. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-21T10:30:00+05:30",
+      "last_updated": "2026-10-25T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0025",
+      "date": "2026-10-07",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Galle",
+      "customer_id": "CUST-0159",
+      "incident_id": "INC-0059",
+      "issue_hint": "Pickup location error",
+      "text": "Customer contacted support about pickup location error. The pickup pin moved to the opposite side of the road after I confirmed the booking. The driver and I waited at different entrances despite sharing the exact landmark Follow-up requested: allow entrance-level pickup notes and show both parties the same confirmed pin.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. The pickup pin moved to the opposite side of the road after I confirmed the booking."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0059. The driver and I waited at different entrances despite sharing the exact landmark. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-07T10:30:00+05:30",
+      "last_updated": "2026-10-07T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0026",
+      "date": "2026-10-18",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0170",
+      "incident_id": "INC-0070",
+      "issue_hint": "Driver no-show",
+      "text": "Customer contacted support about driver no-show. The map showed my driver nearby, but the vehicle never reached the pickup. The driver was marked as arrived while I was still looking for the car Follow-up requested: require arrival proximity checks and an easier no-show report.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. The map showed my driver nearby, but the vehicle never reached the pickup."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0070. The driver was marked as arrived while I was still looking for the car. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-18T10:30:00+05:30",
+      "last_updated": "2026-10-19T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0027",
+      "date": "2026-08-21",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0112",
+      "incident_id": "INC-0012",
+      "issue_hint": "Card payment failure",
+      "text": "Customer contacted support about card payment failure. The payment screen failed after my bank approved the charge. I could not determine whether another attempt would charge my card again Follow-up requested: show payment state clearly and provide safe retry guidance.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The payment screen failed after my bank approved the charge."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0012. I could not determine whether another attempt would charge my card again. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-08-21T10:30:00+05:30",
+      "last_updated": "2026-08-23T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0028",
+      "date": "2026-10-01",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Wattala",
+      "customer_id": "CUST-0123",
+      "incident_id": "INC-0023",
+      "issue_hint": "Duplicate payment",
+      "text": "Customer contacted support about duplicate payment. The card transaction appeared twice for one completed trip. Support asked me for screenshots even though both transaction references were already in the app Follow-up requested: detect duplicate captures and surface payment transaction IDs in support.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. The card transaction appeared twice for one completed trip."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0023. Support asked me for screenshots even though both transaction references were already in the app. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-01T10:30:00+05:30",
+      "last_updated": "2026-10-05T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0029",
+      "date": "2026-11-07",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Galle",
+      "customer_id": "CUST-0134",
+      "incident_id": "INC-0034",
+      "issue_hint": "Fare estimate mismatch",
+      "text": "Customer contacted support about fare estimate mismatch. The final fare was higher than the estimate shown before I booked. I could not tell whether traffic, route changes, or a fee caused the difference Follow-up requested: show an itemized fare breakdown and an explanation of estimate changes.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. The final fare was higher than the estimate shown before I booked."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0034. I could not tell whether traffic, route changes, or a fee caused the difference. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-11-07T10:30:00+05:30",
+      "last_updated": "2026-11-07T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0030",
+      "date": "2026-10-22",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0145",
+      "incident_id": "INC-0045",
+      "issue_hint": "Pickup location error",
+      "text": "Customer contacted support about pickup location error. The pickup pin moved to the opposite side of the road after I confirmed the booking. The driver and I waited at different entrances despite sharing the exact landmark Follow-up requested: allow entrance-level pickup notes and show both parties the same confirmed pin.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The pickup pin moved to the opposite side of the road after I confirmed the booking."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0045. The driver and I waited at different entrances despite sharing the exact landmark. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-22T10:30:00+05:30",
+      "last_updated": "2026-10-23T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0031",
+      "date": "2026-10-12",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0156",
+      "incident_id": "INC-0056",
+      "issue_hint": "Driver no-show",
+      "text": "Customer contacted support about driver no-show. The map showed my driver nearby, but the vehicle never reached the pickup. The driver was marked as arrived while I was still looking for the car Follow-up requested: require arrival proximity checks and an easier no-show report.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. The map showed my driver nearby, but the vehicle never reached the pickup."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0056. The driver was marked as arrived while I was still looking for the car. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-12T10:30:00+05:30",
+      "last_updated": "2026-10-14T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0032",
+      "date": "2026-10-23",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0167",
+      "incident_id": "INC-0067",
+      "issue_hint": "Driver cancellation",
+      "text": "Customer contacted support about driver cancellation. A driver accepted the trip, then cancelled after asking for my destination. I had already walked to the pickup point, and the app did not immediately find another driver Follow-up requested: show a reliable reassignment ETA and flag repeated post-acceptance cancellations.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. A driver accepted the trip, then cancelled after asking for my destination."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0067. I had already walked to the pickup point, and the app did not immediately find another driver. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-23T10:30:00+05:30",
+      "last_updated": "2026-10-27T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0033",
+      "date": "2026-07-26",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Wattala",
+      "customer_id": "CUST-0108",
+      "incident_id": "INC-0008",
+      "issue_hint": "Trip receipt issue",
+      "text": "Customer contacted support about trip receipt issue. I could not download a receipt with the correct fare breakdown for reimbursement. The receipt omitted the trip reference and an itemized payment line Follow-up requested: offer downloadable corrected receipts with clear payment references.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. I could not download a receipt with the correct fare breakdown for reimbursement."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0008. The receipt omitted the trip reference and an itemized payment line. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-07-26T10:30:00+05:30",
+      "last_updated": "2026-07-26T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0034",
+      "date": "2026-09-05",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Galle",
+      "customer_id": "CUST-0119",
+      "incident_id": "INC-0019",
+      "issue_hint": "Scheduled ride reliability",
+      "text": "Customer contacted support about scheduled ride reliability. A ride scheduled the previous evening was cancelled shortly before the pickup time. The late notice left no alternative for an early appointment Follow-up requested: confirm scheduled driver availability earlier and offer backup matching.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. A ride scheduled the previous evening was cancelled shortly before the pickup time."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0019. The late notice left no alternative for an early appointment. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-09-05T10:30:00+05:30",
+      "last_updated": "2026-09-06T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0035",
+      "date": "2026-10-16",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0130",
+      "incident_id": "INC-0030",
+      "issue_hint": "Accessibility limitation",
+      "text": "Customer contacted support about accessibility limitation. I could not tell whether the assigned vehicle would accommodate my mobility needs. There was no practical way to communicate accessibility requirements before acceptance Follow-up requested: add optional accessibility preferences and confirmation with the driver.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. I could not tell whether the assigned vehicle would accommodate my mobility needs."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0030. There was no practical way to communicate accessibility requirements before acceptance. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-16T10:30:00+05:30",
+      "last_updated": "2026-10-18T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0036",
+      "date": "2026-10-07",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0141",
+      "incident_id": "INC-0041",
+      "issue_hint": "Support response delay",
+      "text": "Customer contacted support about support response delay. My support conversation was closed before anyone answered the actual question. I had to repeat the same incident details each time the ticket was reopened Follow-up requested: retain context across agents and show response deadlines.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. My support conversation was closed before anyone answered the actual question."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0041. I had to repeat the same incident details each time the ticket was reopened. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-07T10:30:00+05:30",
+      "last_updated": "2026-10-11T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0037",
+      "date": "2026-10-14",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0152",
+      "incident_id": "INC-0052",
+      "issue_hint": "Promotion eligibility",
+      "text": "Customer contacted support about promotion eligibility. A promotion appeared in my account but was rejected at checkout. The terms did not explain the location or payment-method restriction Follow-up requested: show eligibility before booking and explain rejected coupons.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. A promotion appeared in my account but was rejected at checkout."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0052. The terms did not explain the location or payment-method restriction. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-14T10:30:00+05:30",
+      "last_updated": "2026-10-14T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0038",
+      "date": "2026-10-25",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Wattala",
+      "customer_id": "CUST-0163",
+      "incident_id": "INC-0063",
+      "issue_hint": "OTP verification",
+      "text": "Customer contacted support about otp verification. The ride verification code arrived too late for the driver to start the trip. Both of us were waiting beside the car while the retry button was unresponsive Follow-up requested: provide clear OTP delivery retries and a verified fallback.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The ride verification code arrived too late for the driver to start the trip."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0063. Both of us were waiting beside the car while the retry button was unresponsive. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-25T10:30:00+05:30",
+      "last_updated": "2026-10-26T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0039",
+      "date": "2026-07-04",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Galle",
+      "customer_id": "CUST-0104",
+      "incident_id": "INC-0004",
+      "issue_hint": "Driver conduct",
+      "text": "Customer contacted support about driver conduct. The driver spoke rudely when I asked about the pickup location. I left a low rating, but I received no acknowledgment about the incident Follow-up requested: offer a structured conduct report and case-status updates.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. The driver spoke rudely when I asked about the pickup location."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0004. I left a low rating, but I received no acknowledgment about the incident. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-07-04T10:30:00+05:30",
+      "last_updated": "2026-07-06T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0040",
+      "date": "2026-08-20",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0116",
+      "incident_id": "INC-0016",
+      "issue_hint": "Airport pickup confusion",
+      "text": "Customer contacted support about airport pickup confusion. At the airport pickup area, the app gave a pin that did not match the allowed vehicle entrance. I carried luggage between gates and the driver could not stop safely Follow-up requested: provide terminal-specific pickup instructions and meeting zones.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. At the airport pickup area, the app gave a pin that did not match the allowed vehicle entrance."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0016. I carried luggage between gates and the driver could not stop safely. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-08-20T10:30:00+05:30",
+      "last_updated": "2026-08-24T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0041",
+      "date": "2026-09-26",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0127",
+      "incident_id": "INC-0027",
+      "issue_hint": "Support response delay",
+      "text": "Customer contacted support about support response delay. My support conversation was closed before anyone answered the actual question. I had to repeat the same incident details each time the ticket was reopened Follow-up requested: retain context across agents and show response deadlines.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. My support conversation was closed before anyone answered the actual question."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0027. I had to repeat the same incident details each time the ticket was reopened. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-09-26T10:30:00+05:30",
+      "last_updated": "2026-09-26T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0042",
+      "date": "2026-10-08",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Wattala",
+      "customer_id": "CUST-0138",
+      "incident_id": "INC-0038",
+      "issue_hint": "Promotion eligibility",
+      "text": "Customer contacted support about promotion eligibility. A promotion appeared in my account but was rejected at checkout. The terms did not explain the location or payment-method restriction Follow-up requested: show eligibility before booking and explain rejected coupons.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. A promotion appeared in my account but was rejected at checkout."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0038. The terms did not explain the location or payment-method restriction. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-08T10:30:00+05:30",
+      "last_updated": "2026-10-09T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0043",
+      "date": "2026-10-19",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Galle",
+      "customer_id": "CUST-0149",
+      "incident_id": "INC-0049",
+      "issue_hint": "OTP verification",
+      "text": "Customer contacted support about otp verification. The ride verification code arrived too late for the driver to start the trip. Both of us were waiting beside the car while the retry button was unresponsive Follow-up requested: provide clear OTP delivery retries and a verified fallback.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. The ride verification code arrived too late for the driver to start the trip."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0049. Both of us were waiting beside the car while the retry button was unresponsive. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-19T10:30:00+05:30",
+      "last_updated": "2026-10-21T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0044",
+      "date": "2026-10-09",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0160",
+      "incident_id": "INC-0060",
+      "issue_hint": "GPS tracking",
+      "text": "Customer contacted support about gps tracking. The driver marker froze on the map even though the vehicle kept moving. I called the driver unnecessarily because the displayed location looked several minutes old Follow-up requested: display location freshness and handle stale GPS updates.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The driver marker froze on the map even though the vehicle kept moving."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0060. I called the driver unnecessarily because the displayed location looked several minutes old. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-09T10:30:00+05:30",
+      "last_updated": "2026-10-13T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0045",
+      "date": "2026-06-14",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0101",
+      "incident_id": "INC-0001",
+      "issue_hint": "Safety concern",
+      "text": "Customer contacted support about safety concern. I felt unsafe when the driver used a different route without explaining the detour. The emergency assistance option was hard to find while the ride was in progress Follow-up requested: make in-ride safety controls prominent and confirm route deviations.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. I felt unsafe when the driver used a different route without explaining the detour."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0001. The emergency assistance option was hard to find while the ride was in progress. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-06-14T10:30:00+05:30",
+      "last_updated": "2026-06-14T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0046",
+      "date": "2026-08-20",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0112",
+      "incident_id": "INC-0012",
+      "issue_hint": "Card payment failure",
+      "text": "Customer contacted support about card payment failure. The payment screen failed after my bank approved the charge. I could not determine whether another attempt would charge my card again Follow-up requested: show payment state clearly and provide safe retry guidance.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The payment screen failed after my bank approved the charge."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0012. I could not determine whether another attempt would charge my card again. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-08-20T10:30:00+05:30",
+      "last_updated": "2026-08-21T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0047",
+      "date": "2026-09-30",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Wattala",
+      "customer_id": "CUST-0123",
+      "incident_id": "INC-0023",
+      "issue_hint": "Duplicate payment",
+      "text": "Customer contacted support about duplicate payment. The card transaction appeared twice for one completed trip. Support asked me for screenshots even though both transaction references were already in the app Follow-up requested: detect duplicate captures and surface payment transaction IDs in support.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. The card transaction appeared twice for one completed trip."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0023. Support asked me for screenshots even though both transaction references were already in the app. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-09-30T10:30:00+05:30",
+      "last_updated": "2026-10-02T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0048",
+      "date": "2026-11-10",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Galle",
+      "customer_id": "CUST-0134",
+      "incident_id": "INC-0034",
+      "issue_hint": "Fare estimate mismatch",
+      "text": "Customer contacted support about fare estimate mismatch. The final fare was higher than the estimate shown before I booked. I could not tell whether traffic, route changes, or a fee caused the difference Follow-up requested: show an itemized fare breakdown and an explanation of estimate changes.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. The final fare was higher than the estimate shown before I booked."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0034. I could not tell whether traffic, route changes, or a fee caused the difference. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-11-10T10:30:00+05:30",
+      "last_updated": "2026-11-14T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0049",
+      "date": "2026-10-21",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0145",
+      "incident_id": "INC-0045",
+      "issue_hint": "Pickup location error",
+      "text": "Customer contacted support about pickup location error. The pickup pin moved to the opposite side of the road after I confirmed the booking. The driver and I waited at different entrances despite sharing the exact landmark Follow-up requested: allow entrance-level pickup notes and show both parties the same confirmed pin.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The pickup pin moved to the opposite side of the road after I confirmed the booking."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0045. The driver and I waited at different entrances despite sharing the exact landmark. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-21T10:30:00+05:30",
+      "last_updated": "2026-10-21T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0050",
+      "date": "2026-10-11",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0156",
+      "incident_id": "INC-0056",
+      "issue_hint": "Driver no-show",
+      "text": "Customer contacted support about driver no-show. The map showed my driver nearby, but the vehicle never reached the pickup. The driver was marked as arrived while I was still looking for the car Follow-up requested: require arrival proximity checks and an easier no-show report.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. The map showed my driver nearby, but the vehicle never reached the pickup."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0056. The driver was marked as arrived while I was still looking for the car. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-11T10:30:00+05:30",
+      "last_updated": "2026-10-12T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0051",
+      "date": "2026-10-22",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0167",
+      "incident_id": "INC-0067",
+      "issue_hint": "Driver cancellation",
+      "text": "Customer contacted support about driver cancellation. A driver accepted the trip, then cancelled after asking for my destination. I had already walked to the pickup point, and the app did not immediately find another driver Follow-up requested: show a reliable reassignment ETA and flag repeated post-acceptance cancellations.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. A driver accepted the trip, then cancelled after asking for my destination."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0067. I had already walked to the pickup point, and the app did not immediately find another driver. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-22T10:30:00+05:30",
+      "last_updated": "2026-10-24T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0052",
+      "date": "2026-07-29",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Wattala",
+      "customer_id": "CUST-0108",
+      "incident_id": "INC-0008",
+      "issue_hint": "Trip receipt issue",
+      "text": "Customer contacted support about trip receipt issue. I could not download a receipt with the correct fare breakdown for reimbursement. The receipt omitted the trip reference and an itemized payment line Follow-up requested: offer downloadable corrected receipts with clear payment references.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. I could not download a receipt with the correct fare breakdown for reimbursement."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0008. The receipt omitted the trip reference and an itemized payment line. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-07-29T10:30:00+05:30",
+      "last_updated": "2026-08-02T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0053",
+      "date": "2026-09-10",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0120",
+      "incident_id": "INC-0020",
+      "issue_hint": "Fare estimate mismatch",
+      "text": "Customer contacted support about fare estimate mismatch. The final fare was higher than the estimate shown before I booked. I could not tell whether traffic, route changes, or a fee caused the difference Follow-up requested: show an itemized fare breakdown and an explanation of estimate changes.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. The final fare was higher than the estimate shown before I booked."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0020. I could not tell whether traffic, route changes, or a fee caused the difference. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-09-10T10:30:00+05:30",
+      "last_updated": "2026-09-10T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0054",
+      "date": "2026-10-21",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0131",
+      "incident_id": "INC-0031",
+      "issue_hint": "Pickup location error",
+      "text": "Customer contacted support about pickup location error. The pickup pin moved to the opposite side of the road after I confirmed the booking. The driver and I waited at different entrances despite sharing the exact landmark Follow-up requested: allow entrance-level pickup notes and show both parties the same confirmed pin.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. The pickup pin moved to the opposite side of the road after I confirmed the booking."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0031. The driver and I waited at different entrances despite sharing the exact landmark. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-21T10:30:00+05:30",
+      "last_updated": "2026-10-22T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0055",
+      "date": "2026-10-26",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0142",
+      "incident_id": "INC-0042",
+      "issue_hint": "Driver no-show",
+      "text": "Customer contacted support about driver no-show. The map showed my driver nearby, but the vehicle never reached the pickup. The driver was marked as arrived while I was still looking for the car Follow-up requested: require arrival proximity checks and an easier no-show report.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The map showed my driver nearby, but the vehicle never reached the pickup."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0042. The driver was marked as arrived while I was still looking for the car. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-26T10:30:00+05:30",
+      "last_updated": "2026-10-28T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0056",
+      "date": "2026-10-16",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Wattala",
+      "customer_id": "CUST-0153",
+      "incident_id": "INC-0053",
+      "issue_hint": "Feature request: saved places",
+      "text": "Customer contacted support about feature request: saved places. I want to save more than one work entrance as a named pickup place. Choosing the gate manually every morning is slow and sometimes causes miscommunication Follow-up requested: support multiple saved entrances with notes for regular locations.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. I want to save more than one work entrance as a named pickup place."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0053. Choosing the gate manually every morning is slow and sometimes causes miscommunication. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-16T10:30:00+05:30",
+      "last_updated": "2026-10-20T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0057",
+      "date": "2026-10-23",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Galle",
+      "customer_id": "CUST-0164",
+      "incident_id": "INC-0064",
+      "issue_hint": "Positive booking experience",
+      "text": "Customer contacted support about positive booking experience. My driver arrived at the confirmed pickup point and the fare matched the estimate. The route and arrival notifications were clear throughout the ride Follow-up requested: retain the clear pickup confirmation and accurate trip status notifications.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. My driver arrived at the confirmed pickup point and the fare matched the estimate."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0064. The route and arrival notifications were clear throughout the ride. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-23T10:30:00+05:30",
+      "last_updated": "2026-10-23T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0058",
+      "date": "2026-07-09",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0105",
+      "incident_id": "INC-0005",
+      "issue_hint": "Accessibility limitation",
+      "text": "Customer contacted support about accessibility limitation. I could not tell whether the assigned vehicle would accommodate my mobility needs. There was no practical way to communicate accessibility requirements before acceptance Follow-up requested: add optional accessibility preferences and confirmation with the driver.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. I could not tell whether the assigned vehicle would accommodate my mobility needs."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0005. There was no practical way to communicate accessibility requirements before acceptance. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-07-09T10:30:00+05:30",
+      "last_updated": "2026-07-10T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0059",
+      "date": "2026-08-19",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0116",
+      "incident_id": "INC-0016",
+      "issue_hint": "Airport pickup confusion",
+      "text": "Customer contacted support about airport pickup confusion. At the airport pickup area, the app gave a pin that did not match the allowed vehicle entrance. I carried luggage between gates and the driver could not stop safely Follow-up requested: provide terminal-specific pickup instructions and meeting zones.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. At the airport pickup area, the app gave a pin that did not match the allowed vehicle entrance."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0016. I carried luggage between gates and the driver could not stop safely. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-08-19T10:30:00+05:30",
+      "last_updated": "2026-08-21T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0060",
+      "date": "2026-09-29",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0127",
+      "incident_id": "INC-0027",
+      "issue_hint": "Support response delay",
+      "text": "Customer contacted support about support response delay. My support conversation was closed before anyone answered the actual question. I had to repeat the same incident details each time the ticket was reopened Follow-up requested: retain context across agents and show response deadlines.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. My support conversation was closed before anyone answered the actual question."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0027. I had to repeat the same incident details each time the ticket was reopened. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-09-29T10:30:00+05:30",
+      "last_updated": "2026-10-03T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0061",
+      "date": "2026-10-07",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Wattala",
+      "customer_id": "CUST-0138",
+      "incident_id": "INC-0038",
+      "issue_hint": "Promotion eligibility",
+      "text": "Customer contacted support about promotion eligibility. A promotion appeared in my account but was rejected at checkout. The terms did not explain the location or payment-method restriction Follow-up requested: show eligibility before booking and explain rejected coupons.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. A promotion appeared in my account but was rejected at checkout."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0038. The terms did not explain the location or payment-method restriction. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-07T10:30:00+05:30",
+      "last_updated": "2026-10-07T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0062",
+      "date": "2026-10-18",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Galle",
+      "customer_id": "CUST-0149",
+      "incident_id": "INC-0049",
+      "issue_hint": "OTP verification",
+      "text": "Customer contacted support about otp verification. The ride verification code arrived too late for the driver to start the trip. Both of us were waiting beside the car while the retry button was unresponsive Follow-up requested: provide clear OTP delivery retries and a verified fallback.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. The ride verification code arrived too late for the driver to start the trip."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0049. Both of us were waiting beside the car while the retry button was unresponsive. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-18T10:30:00+05:30",
+      "last_updated": "2026-10-19T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0063",
+      "date": "2026-10-08",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0160",
+      "incident_id": "INC-0060",
+      "issue_hint": "GPS tracking",
+      "text": "Customer contacted support about gps tracking. The driver marker froze on the map even though the vehicle kept moving. I called the driver unnecessarily because the displayed location looked several minutes old Follow-up requested: display location freshness and handle stale GPS updates.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The driver marker froze on the map even though the vehicle kept moving."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0060. I called the driver unnecessarily because the displayed location looked several minutes old. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-08T10:30:00+05:30",
+      "last_updated": "2026-10-10T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0064",
+      "date": "2026-06-17",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0101",
+      "incident_id": "INC-0001",
+      "issue_hint": "Safety concern",
+      "text": "Customer contacted support about safety concern. I felt unsafe when the driver used a different route without explaining the detour. The emergency assistance option was hard to find while the ride was in progress Follow-up requested: make in-ride safety controls prominent and confirm route deviations.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. I felt unsafe when the driver used a different route without explaining the detour."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0001. The emergency assistance option was hard to find while the ride was in progress. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-06-17T10:30:00+05:30",
+      "last_updated": "2026-06-21T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0065",
+      "date": "2026-08-19",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0112",
+      "incident_id": "INC-0012",
+      "issue_hint": "Card payment failure",
+      "text": "Customer contacted support about card payment failure. The payment screen failed after my bank approved the charge. I could not determine whether another attempt would charge my card again Follow-up requested: show payment state clearly and provide safe retry guidance.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The payment screen failed after my bank approved the charge."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0012. I could not determine whether another attempt would charge my card again. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-08-19T10:30:00+05:30",
+      "last_updated": "2026-08-19T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0066",
+      "date": "2026-10-05",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Galle",
+      "customer_id": "CUST-0124",
+      "incident_id": "INC-0024",
+      "issue_hint": "Promotion eligibility",
+      "text": "Customer contacted support about promotion eligibility. A promotion appeared in my account but was rejected at checkout. The terms did not explain the location or payment-method restriction Follow-up requested: show eligibility before booking and explain rejected coupons.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. A promotion appeared in my account but was rejected at checkout."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0024. The terms did not explain the location or payment-method restriction. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-05T10:30:00+05:30",
+      "last_updated": "2026-10-06T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0067",
+      "date": "2026-10-12",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0135",
+      "incident_id": "INC-0035",
+      "issue_hint": "GPS tracking",
+      "text": "Customer contacted support about gps tracking. The driver marker froze on the map even though the vehicle kept moving. I called the driver unnecessarily because the displayed location looked several minutes old Follow-up requested: display location freshness and handle stale GPS updates.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. The driver marker froze on the map even though the vehicle kept moving."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0035. I called the driver unnecessarily because the displayed location looked several minutes old. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-12T10:30:00+05:30",
+      "last_updated": "2026-10-14T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0068",
+      "date": "2026-10-23",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0146",
+      "incident_id": "INC-0046",
+      "issue_hint": "App crash",
+      "text": "Customer contacted support about app crash. The booking screen closed unexpectedly while I was confirming a ride. When I reopened the app, I could not tell whether a booking had been created Follow-up requested: recover booking state after crashes and prevent duplicate requests.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. The booking screen closed unexpectedly while I was confirming a ride."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0046. When I reopened the app, I could not tell whether a booking had been created. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-23T10:30:00+05:30",
+      "last_updated": "2026-10-27T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0069",
+      "date": "2026-10-09",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0157",
+      "incident_id": "INC-0057",
+      "issue_hint": "Driver conduct",
+      "text": "Customer contacted support about driver conduct. The driver spoke rudely when I asked about the pickup location. I left a low rating, but I received no acknowledgment about the incident Follow-up requested: offer a structured conduct report and case-status updates.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The driver spoke rudely when I asked about the pickup location."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0057. I left a low rating, but I received no acknowledgment about the incident. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-09T10:30:00+05:30",
+      "last_updated": "2026-10-09T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0070",
+      "date": "2026-10-20",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Wattala",
+      "customer_id": "CUST-0168",
+      "incident_id": "INC-0068",
+      "issue_hint": "Safety concern",
+      "text": "Customer contacted support about safety concern. I felt unsafe when the driver used a different route without explaining the detour. The emergency assistance option was hard to find while the ride was in progress Follow-up requested: make in-ride safety controls prominent and confirm route deviations.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. I felt unsafe when the driver used a different route without explaining the detour."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0068. The emergency assistance option was hard to find while the ride was in progress. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-20T10:30:00+05:30",
+      "last_updated": "2026-10-21T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0071",
+      "date": "2026-08-03",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Galle",
+      "customer_id": "CUST-0109",
+      "incident_id": "INC-0009",
+      "issue_hint": "Duplicate payment",
+      "text": "Customer contacted support about duplicate payment. The card transaction appeared twice for one completed trip. Support asked me for screenshots even though both transaction references were already in the app Follow-up requested: detect duplicate captures and surface payment transaction IDs in support.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The card transaction appeared twice for one completed trip."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0009. Support asked me for screenshots even though both transaction references were already in the app. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-08-03T10:30:00+05:30",
+      "last_updated": "2026-08-05T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0072",
+      "date": "2026-09-13",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0120",
+      "incident_id": "INC-0020",
+      "issue_hint": "Fare estimate mismatch",
+      "text": "Customer contacted support about fare estimate mismatch. The final fare was higher than the estimate shown before I booked. I could not tell whether traffic, route changes, or a fee caused the difference Follow-up requested: show an itemized fare breakdown and an explanation of estimate changes.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. The final fare was higher than the estimate shown before I booked."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0020. I could not tell whether traffic, route changes, or a fee caused the difference. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-09-13T10:30:00+05:30",
+      "last_updated": "2026-09-17T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0073",
+      "date": "2026-10-20",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0131",
+      "incident_id": "INC-0031",
+      "issue_hint": "Pickup location error",
+      "text": "Customer contacted support about pickup location error. The pickup pin moved to the opposite side of the road after I confirmed the booking. The driver and I waited at different entrances despite sharing the exact landmark Follow-up requested: allow entrance-level pickup notes and show both parties the same confirmed pin.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. The pickup pin moved to the opposite side of the road after I confirmed the booking."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0031. The driver and I waited at different entrances despite sharing the exact landmark. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-20T10:30:00+05:30",
+      "last_updated": "2026-10-20T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0074",
+      "date": "2026-10-25",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0142",
+      "incident_id": "INC-0042",
+      "issue_hint": "Driver no-show",
+      "text": "Customer contacted support about driver no-show. The map showed my driver nearby, but the vehicle never reached the pickup. The driver was marked as arrived while I was still looking for the car Follow-up requested: require arrival proximity checks and an easier no-show report.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The map showed my driver nearby, but the vehicle never reached the pickup."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0042. The driver was marked as arrived while I was still looking for the car. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-25T10:30:00+05:30",
+      "last_updated": "2026-10-26T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0075",
+      "date": "2026-10-15",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Wattala",
+      "customer_id": "CUST-0153",
+      "incident_id": "INC-0053",
+      "issue_hint": "Feature request: saved places",
+      "text": "Customer contacted support about feature request: saved places. I want to save more than one work entrance as a named pickup place. Choosing the gate manually every morning is slow and sometimes causes miscommunication Follow-up requested: support multiple saved entrances with notes for regular locations.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. I want to save more than one work entrance as a named pickup place."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0053. Choosing the gate manually every morning is slow and sometimes causes miscommunication. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-15T10:30:00+05:30",
+      "last_updated": "2026-10-17T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0076",
+      "date": "2026-10-26",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Galle",
+      "customer_id": "CUST-0164",
+      "incident_id": "INC-0064",
+      "issue_hint": "Positive booking experience",
+      "text": "Customer contacted support about positive booking experience. My driver arrived at the confirmed pickup point and the fare matched the estimate. The route and arrival notifications were clear throughout the ride Follow-up requested: retain the clear pickup confirmation and accurate trip status notifications.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. My driver arrived at the confirmed pickup point and the fare matched the estimate."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0064. The route and arrival notifications were clear throughout the ride. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-26T10:30:00+05:30",
+      "last_updated": "2026-10-30T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0077",
+      "date": "2026-07-08",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0105",
+      "incident_id": "INC-0005",
+      "issue_hint": "Accessibility limitation",
+      "text": "Customer contacted support about accessibility limitation. I could not tell whether the assigned vehicle would accommodate my mobility needs. There was no practical way to communicate accessibility requirements before acceptance Follow-up requested: add optional accessibility preferences and confirmation with the driver.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. I could not tell whether the assigned vehicle would accommodate my mobility needs."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0005. There was no practical way to communicate accessibility requirements before acceptance. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-07-08T10:30:00+05:30",
+      "last_updated": "2026-07-08T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0078",
+      "date": "2026-08-18",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0116",
+      "incident_id": "INC-0016",
+      "issue_hint": "Airport pickup confusion",
+      "text": "Customer contacted support about airport pickup confusion. At the airport pickup area, the app gave a pin that did not match the allowed vehicle entrance. I carried luggage between gates and the driver could not stop safely Follow-up requested: provide terminal-specific pickup instructions and meeting zones.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. At the airport pickup area, the app gave a pin that did not match the allowed vehicle entrance."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0016. I carried luggage between gates and the driver could not stop safely. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-08-18T10:30:00+05:30",
+      "last_updated": "2026-08-19T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0079",
+      "date": "2026-10-04",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Wattala",
+      "customer_id": "CUST-0128",
+      "incident_id": "INC-0028",
+      "issue_hint": "Driver cancellation",
+      "text": "Customer contacted support about driver cancellation. A driver accepted the trip, then cancelled after asking for my destination. I had already walked to the pickup point, and the app did not immediately find another driver Follow-up requested: show a reliable reassignment ETA and flag repeated post-acceptance cancellations.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. A driver accepted the trip, then cancelled after asking for my destination."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0028. I had already walked to the pickup point, and the app did not immediately find another driver. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-04T10:30:00+05:30",
+      "last_updated": "2026-10-06T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0080",
+      "date": "2026-10-09",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Galle",
+      "customer_id": "CUST-0139",
+      "incident_id": "INC-0039",
+      "issue_hint": "Feature request: saved places",
+      "text": "Customer contacted support about feature request: saved places. I want to save more than one work entrance as a named pickup place. Choosing the gate manually every morning is slow and sometimes causes miscommunication Follow-up requested: support multiple saved entrances with notes for regular locations.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. I want to save more than one work entrance as a named pickup place."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0039. Choosing the gate manually every morning is slow and sometimes causes miscommunication. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-09T10:30:00+05:30",
+      "last_updated": "2026-10-13T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0081",
+      "date": "2026-10-16",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0150",
+      "incident_id": "INC-0050",
+      "issue_hint": "Positive booking experience",
+      "text": "Customer contacted support about positive booking experience. My driver arrived at the confirmed pickup point and the fare matched the estimate. The route and arrival notifications were clear throughout the ride Follow-up requested: retain the clear pickup confirmation and accurate trip status notifications.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. My driver arrived at the confirmed pickup point and the fare matched the estimate."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0050. The route and arrival notifications were clear throughout the ride. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-16T10:30:00+05:30",
+      "last_updated": "2026-10-16T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0082",
+      "date": "2026-10-06",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0161",
+      "incident_id": "INC-0061",
+      "issue_hint": "Trip receipt issue",
+      "text": "Customer contacted support about trip receipt issue. I could not download a receipt with the correct fare breakdown for reimbursement. The receipt omitted the trip reference and an itemized payment line Follow-up requested: offer downloadable corrected receipts with clear payment references.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. I could not download a receipt with the correct fare breakdown for reimbursement."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0061. The receipt omitted the trip reference and an itemized payment line. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-06T10:30:00+05:30",
+      "last_updated": "2026-10-07T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0083",
+      "date": "2026-06-22",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0102",
+      "incident_id": "INC-0002",
+      "issue_hint": "Airport pickup confusion",
+      "text": "Customer contacted support about airport pickup confusion. At the airport pickup area, the app gave a pin that did not match the allowed vehicle entrance. I carried luggage between gates and the driver could not stop safely Follow-up requested: provide terminal-specific pickup instructions and meeting zones.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. At the airport pickup area, the app gave a pin that did not match the allowed vehicle entrance."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0002. I carried luggage between gates and the driver could not stop safely. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-06-22T10:30:00+05:30",
+      "last_updated": "2026-06-24T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0084",
+      "date": "2026-08-02",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Wattala",
+      "customer_id": "CUST-0113",
+      "incident_id": "INC-0013",
+      "issue_hint": "Support response delay",
+      "text": "Customer contacted support about support response delay. My support conversation was closed before anyone answered the actual question. I had to repeat the same incident details each time the ticket was reopened Follow-up requested: retain context across agents and show response deadlines.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. My support conversation was closed before anyone answered the actual question."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0013. I had to repeat the same incident details each time the ticket was reopened. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-08-02T10:30:00+05:30",
+      "last_updated": "2026-08-06T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0085",
+      "date": "2026-10-04",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Galle",
+      "customer_id": "CUST-0124",
+      "incident_id": "INC-0024",
+      "issue_hint": "Promotion eligibility",
+      "text": "Customer contacted support about promotion eligibility. A promotion appeared in my account but was rejected at checkout. The terms did not explain the location or payment-method restriction Follow-up requested: show eligibility before booking and explain rejected coupons.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. A promotion appeared in my account but was rejected at checkout."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0024. The terms did not explain the location or payment-method restriction. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-04T10:30:00+05:30",
+      "last_updated": "2026-10-04T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0086",
+      "date": "2026-10-11",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0135",
+      "incident_id": "INC-0035",
+      "issue_hint": "GPS tracking",
+      "text": "Customer contacted support about gps tracking. The driver marker froze on the map even though the vehicle kept moving. I called the driver unnecessarily because the displayed location looked several minutes old Follow-up requested: display location freshness and handle stale GPS updates.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. The driver marker froze on the map even though the vehicle kept moving."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0035. I called the driver unnecessarily because the displayed location looked several minutes old. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-11T10:30:00+05:30",
+      "last_updated": "2026-10-12T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0087",
+      "date": "2026-10-22",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0146",
+      "incident_id": "INC-0046",
+      "issue_hint": "App crash",
+      "text": "Customer contacted support about app crash. The booking screen closed unexpectedly while I was confirming a ride. When I reopened the app, I could not tell whether a booking had been created Follow-up requested: recover booking state after crashes and prevent duplicate requests.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. The booking screen closed unexpectedly while I was confirming a ride."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0046. When I reopened the app, I could not tell whether a booking had been created. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-22T10:30:00+05:30",
+      "last_updated": "2026-10-24T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0088",
+      "date": "2026-10-12",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0157",
+      "incident_id": "INC-0057",
+      "issue_hint": "Driver conduct",
+      "text": "Customer contacted support about driver conduct. The driver spoke rudely when I asked about the pickup location. I left a low rating, but I received no acknowledgment about the incident Follow-up requested: offer a structured conduct report and case-status updates.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The driver spoke rudely when I asked about the pickup location."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0057. I left a low rating, but I received no acknowledgment about the incident. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-12T10:30:00+05:30",
+      "last_updated": "2026-10-16T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0089",
+      "date": "2026-10-19",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Wattala",
+      "customer_id": "CUST-0168",
+      "incident_id": "INC-0068",
+      "issue_hint": "Safety concern",
+      "text": "Customer contacted support about safety concern. I felt unsafe when the driver used a different route without explaining the detour. The emergency assistance option was hard to find while the ride was in progress Follow-up requested: make in-ride safety controls prominent and confirm route deviations.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. I felt unsafe when the driver used a different route without explaining the detour."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0068. The emergency assistance option was hard to find while the ride was in progress. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-19T10:30:00+05:30",
+      "last_updated": "2026-10-19T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0090",
+      "date": "2026-08-02",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Galle",
+      "customer_id": "CUST-0109",
+      "incident_id": "INC-0009",
+      "issue_hint": "Duplicate payment",
+      "text": "Customer contacted support about duplicate payment. The card transaction appeared twice for one completed trip. Support asked me for screenshots even though both transaction references were already in the app Follow-up requested: detect duplicate captures and surface payment transaction IDs in support.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The card transaction appeared twice for one completed trip."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0009. Support asked me for screenshots even though both transaction references were already in the app. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-08-02T10:30:00+05:30",
+      "last_updated": "2026-08-03T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0091",
+      "date": "2026-09-12",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0120",
+      "incident_id": "INC-0020",
+      "issue_hint": "Fare estimate mismatch",
+      "text": "Customer contacted support about fare estimate mismatch. The final fare was higher than the estimate shown before I booked. I could not tell whether traffic, route changes, or a fee caused the difference Follow-up requested: show an itemized fare breakdown and an explanation of estimate changes.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. The final fare was higher than the estimate shown before I booked."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0020. I could not tell whether traffic, route changes, or a fee caused the difference. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-09-12T10:30:00+05:30",
+      "last_updated": "2026-09-14T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0092",
+      "date": "2026-10-29",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0132",
+      "incident_id": "INC-0032",
+      "issue_hint": "App crash",
+      "text": "Customer contacted support about app crash. The booking screen closed unexpectedly while I was confirming a ride. When I reopened the app, I could not tell whether a booking had been created Follow-up requested: recover booking state after crashes and prevent duplicate requests.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. The booking screen closed unexpectedly while I was confirming a ride."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0032. When I reopened the app, I could not tell whether a booking had been created. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-29T10:30:00+05:30",
+      "last_updated": "2026-11-02T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0093",
+      "date": "2026-10-23",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Wattala",
+      "customer_id": "CUST-0143",
+      "incident_id": "INC-0043",
+      "issue_hint": "Driver conduct",
+      "text": "Customer contacted support about driver conduct. The driver spoke rudely when I asked about the pickup location. I left a low rating, but I received no acknowledgment about the incident Follow-up requested: offer a structured conduct report and case-status updates.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. The driver spoke rudely when I asked about the pickup location."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0043. I left a low rating, but I received no acknowledgment about the incident. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-23T10:30:00+05:30",
+      "last_updated": "2026-10-23T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0094",
+      "date": "2026-10-13",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Galle",
+      "customer_id": "CUST-0154",
+      "incident_id": "INC-0054",
+      "issue_hint": "Safety concern",
+      "text": "Customer contacted support about safety concern. I felt unsafe when the driver used a different route without explaining the detour. The emergency assistance option was hard to find while the ride was in progress Follow-up requested: make in-ride safety controls prominent and confirm route deviations.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. I felt unsafe when the driver used a different route without explaining the detour."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0054. The emergency assistance option was hard to find while the ride was in progress. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-13T10:30:00+05:30",
+      "last_updated": "2026-10-14T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0095",
+      "date": "2026-10-24",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0165",
+      "incident_id": "INC-0065",
+      "issue_hint": "Refund delay",
+      "text": "Customer contacted support about refund delay. My cancelled trip was charged and the refund was still pending days later. The app only said processing, without a promised refund date or status timeline Follow-up requested: show refund milestones and escalate overdue reversals automatically.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. My cancelled trip was charged and the refund was still pending days later."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0065. The app only said processing, without a promised refund date or status timeline. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-24T10:30:00+05:30",
+      "last_updated": "2026-10-26T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0096",
+      "date": "2026-07-17",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Nugegoda",
+      "customer_id": "CUST-0106",
+      "incident_id": "INC-0006",
+      "issue_hint": "Fare estimate mismatch",
+      "text": "Customer contacted support about fare estimate mismatch. The final fare was higher than the estimate shown before I booked. I could not tell whether traffic, route changes, or a fee caused the difference Follow-up requested: show an itemized fare breakdown and an explanation of estimate changes.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. The final fare was higher than the estimate shown before I booked."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0006. I could not tell whether traffic, route changes, or a fee caused the difference. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-07-17T10:30:00+05:30",
+      "last_updated": "2026-07-21T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0097",
+      "date": "2026-08-23",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Open",
+      "priority": "Medium",
+      "city": "Kollupitiya",
+      "customer_id": "CUST-0117",
+      "incident_id": "INC-0017",
+      "issue_hint": "Driver no-show",
+      "text": "Customer contacted support about driver no-show. The map showed my driver nearby, but the vehicle never reached the pickup. The driver was marked as arrived while I was still looking for the car Follow-up requested: require arrival proximity checks and an easier no-show report.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. The map showed my driver nearby, but the vehicle never reached the pickup."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0017. The driver was marked as arrived while I was still looking for the car. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-08-23T10:30:00+05:30",
+      "last_updated": "2026-08-23T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0098",
+      "date": "2026-10-03",
+      "source": "synthetic_support_ticket",
+      "channel": "Email",
+      "status": "Investigating",
+      "priority": "High",
+      "city": "Wattala",
+      "customer_id": "CUST-0128",
+      "incident_id": "INC-0028",
+      "issue_hint": "Driver cancellation",
+      "text": "Customer contacted support about driver cancellation. A driver accepted the trip, then cancelled after asking for my destination. I had already walked to the pickup point, and the app did not immediately find another driver Follow-up requested: show a reliable reassignment ETA and flag repeated post-acceptance cancellations.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Nawala. A driver accepted the trip, then cancelled after asking for my destination."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0028. I had already walked to the pickup point, and the app did not immediately find another driver. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "The case has been escalated to the payments/product team. We will update the status here rather than ask you to open a second ticket."
+        }
+      ],
+      "created_at": "2026-10-03T10:30:00+05:30",
+      "last_updated": "2026-10-04T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0099",
+      "date": "2026-10-08",
+      "source": "synthetic_support_ticket",
+      "channel": "In-app chat",
+      "status": "Resolved",
+      "priority": "Critical",
+      "city": "Galle",
+      "customer_id": "CUST-0139",
+      "incident_id": "INC-0039",
+      "issue_hint": "Feature request: saved places",
+      "text": "Customer contacted support about feature request: saved places. I want to save more than one work entrance as a named pickup place. Choosing the gate manually every morning is slow and sometimes causes miscommunication Follow-up requested: support multiple saved entrances with notes for regular locations.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Fort railway station. I want to save more than one work entrance as a named pickup place."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0039. Choosing the gate manually every morning is slow and sometimes causes miscommunication. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I understand the inconvenience. I have attached the reported time and pickup location for review."
+        }
+      ],
+      "created_at": "2026-10-08T10:30:00+05:30",
+      "last_updated": "2026-10-10T15:10:00+05:30"
+    },
+    {
+      "id": "TKT-0100",
+      "date": "2026-10-19",
+      "source": "synthetic_support_ticket",
+      "channel": "Call transcript",
+      "status": "Awaiting customer",
+      "priority": "Low",
+      "city": "Colombo 03",
+      "customer_id": "CUST-0150",
+      "incident_id": "INC-0050",
+      "issue_hint": "Positive booking experience",
+      "text": "Customer contacted support about positive booking experience. My driver arrived at the confirmed pickup point and the fare matched the estimate. The route and arrival notifications were clear throughout the ride Follow-up requested: retain the clear pickup confirmation and accurate trip status notifications.",
+      "conversation": [
+        {
+          "speaker": "Customer",
+          "message": "Hello, I'm following up on my Zipro experience near Kotte Road. My driver arrived at the confirmed pickup point and the fare matched the estimate."
+        },
+        {
+          "speaker": "Support",
+          "message": "I can review this. Could you confirm the trip reference and what you saw in the app?"
+        },
+        {
+          "speaker": "Customer",
+          "message": "Trip reference INC-0050. The route and arrival notifications were clear throughout the ride. Please explain what happens next."
+        },
+        {
+          "speaker": "Support",
+          "message": "I have linked this to the investigation queue. Please retain your receipt while we check the event timeline."
+        },
+        {
+          "speaker": "Customer",
+          "message": "Please give an expected resolution date, not just another acknowledgement."
+        }
+      ],
+      "created_at": "2026-10-19T10:30:00+05:30",
+      "last_updated": "2026-10-23T15:10:00+05:30"
+    }
+  ]
+}
